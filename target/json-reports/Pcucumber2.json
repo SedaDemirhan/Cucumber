@@ -1,0 +1,1455 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T17:30:06.397Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "TC07 istenen kelimenin oldugunu test etme",
+        "description": "",
+        "id": "us1003-kullanici-istedigi-kelime-icin-arama-yapip--sonucu-test-eder;tc07-istenen-kelimenin-oldugunu-test-etme",
+        "after": [
+          {
+            "result": {
+              "duration": 2657950700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 156623822700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7398467400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"armut\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64214600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonucun \"armut\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 724630300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@rapor2"
+          }
+        ]
+      }
+    ],
+    "name": "US1003 kullanici istedigi kelime icin arama yapip, sonucu test eder",
+    "description": "",
+    "id": "us1003-kullanici-istedigi-kelime-icin-arama-yapip--sonucu-test-eder",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1003_amazonParametreliArama.feature",
+    "tags": [
+      {
+        "name": "@Paralel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T17:32:53.917Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz",
+        "description": "",
+        "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bir-listeyi-aratip--var-olduklarini-test-ediniz;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2605661600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8087022100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17010777800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"nutella\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nutella\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84036100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuc sayisini yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisiniYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81049600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonucun \"nutella\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"nutella\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 719595500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:33:22.536Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz",
+        "description": "",
+        "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bir-listeyi-aratip--var-olduklarini-test-ediniz;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2485925000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13734349400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4768924800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"java\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92785900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuc sayisini yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisiniYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60427700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonucun \"java\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777882100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:33:44.477Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz",
+        "description": "",
+        "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bir-listeyi-aratip--var-olduklarini-test-ediniz;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2680585900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9367768200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4458062900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"ipod\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ipod\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103888900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuc sayisini yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisiniYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50389100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonucun \"ipod\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ipod\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 744872000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:34:01.896Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz",
+        "description": "",
+        "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bir-listeyi-aratip--var-olduklarini-test-ediniz;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2545298700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8184731500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3662916000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"armut\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128178800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuc sayisini yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisiniYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29696400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonucun \"armut\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"armut\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723042800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:34:17.185Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1017800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC09 amazonda verilen bir listeyi aratip, var olduklarini test ediniz",
+        "description": "",
+        "id": "us1005-amazonda-liste-ile-arama;tc09-amazonda-verilen-bir-listeyi-aratip--var-olduklarini-test-ediniz;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2603931300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8952490700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"amazonUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"amazonUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3342683500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"Apple\" icin arama yapar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.icinAramaYapar(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60598400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "sonuc sayisini yazdirir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sonucSayisiniYazdirir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33102200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonucun \"Apple\" icerdigini test eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.sonucunIcerdiginiTestEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727922900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          }
+        ]
+      }
+    ],
+    "name": "US1005 amazonda liste ile arama",
+    "description": "",
+    "id": "us1005-amazonda-liste-ile-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1005_scenarioOutline.feature",
+    "tags": [
+      {
+        "name": "@Paralel2",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-10T17:34:32.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 496300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "TC10 Farkli kullanici isimleri ile negative test",
+        "description": "",
+        "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test;tc10-farkli-kullanici-isimleri-ile-negative-test;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2563655200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12480734400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 887319700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165075100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH username kutusuna \"Manager5\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager5\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194965100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH password kutusuna \"Manager5!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager5!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993926800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128848000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "giris yapilamadigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.giris_yapilamadigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 770049000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@CH"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:34:51.137Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "TC10 Farkli kullanici isimleri ile negative test",
+        "description": "",
+        "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test;tc10-farkli-kullanici-isimleri-ile-negative-test;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2420503000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13903567600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1035230600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 152088800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH username kutusuna \"Manager6\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager6\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 108860600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH password kutusuna \"Manager6!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager6!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 765335100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73525000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "giris yapilamadigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.giris_yapilamadigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 712246900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@CH"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:35:10.309Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC10 Farkli kullanici isimleri ile negative test",
+        "description": "",
+        "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test;tc10-farkli-kullanici-isimleri-ile-negative-test;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2381361400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12269139400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 906499600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129866200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH username kutusuna \"Manager7\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager7\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124320900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH password kutusuna \"Manager7!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager7!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893498800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73121100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "giris yapilamadigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.giris_yapilamadigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 705198200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@CH"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:35:27.800Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC10 Farkli kullanici isimleri ile negative test",
+        "description": "",
+        "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test;tc10-farkli-kullanici-isimleri-ile-negative-test;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 2523519500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11868631400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 899980000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 161536100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH username kutusuna \"Manager8\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager8\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105490700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH password kutusuna \"Manager8!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager8!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835098800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78892800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "giris yapilamadigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.giris_yapilamadigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 717554700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@CH"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-10T17:35:44.990Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TC10 Farkli kullanici isimleri ile negative test",
+        "description": "",
+        "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test;tc10-farkli-kullanici-isimleri-ile-negative-test;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 2380247100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13921116900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "kullanici \"CHQAUrl\" sayfasina gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CHQAUrl\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.amazonStepDefinitions.kullaniciSayfasinaGider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817603400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CH login linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_linkine_tiklar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131191200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "CH username kutusuna \"Manager9\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager9\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_username_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104154700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "CH password kutusuna \"Manager9!\" yazar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manager9!\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_password_kutusuna_yazar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 835841400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "CH login butonuna basar",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.ch_login_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45470300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "giris yapilamadigini test eder",
+            "match": {
+              "location": "stepdefinitions.CHQAStepDefinitions.giris_yapilamadigini_test_eder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 702824700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepdefinitions.amazonStepDefinitions.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Paralel2"
+          },
+          {
+            "name": "@CH"
+          }
+        ]
+      }
+    ],
+    "name": "US1006 concort hotels sayfasinda farkli kullanici adlari ile negative test",
+    "description": "",
+    "id": "us1006-concort-hotels-sayfasinda-farkli-kullanici-adlari-ile-negative-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US1006_ConcortHotelNegativeLoginScenerioOutline.feature",
+    "tags": [
+      {
+        "name": "@Paralel2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
