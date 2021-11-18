@@ -1,8 +1,11 @@
 package dbStepdefinitions;
 
 import io.cucumber.java.en.Given;
+import org.junit.Assert;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class DbStepDefinition {
